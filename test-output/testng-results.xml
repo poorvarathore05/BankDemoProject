@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="70109" started-at="2020-05-28T03:40:34Z" finished-at="2020-05-28T03:41:44Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="70109" started-at="2020-05-28T03:40:34Z" finished-at="2020-05-28T03:41:44Z">
+      <class name="com.bank.demosite.testClasses.TestDataProvider">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.bank.demosite.testClasses.TestDataProvider@5649fd9b]" name="setup" is-config="true" duration-ms="6142" started-at="2020-05-28T03:40:28Z" finished-at="2020-05-28T03:40:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testCase(java.util.Map)[pri:0, instance:com.bank.demosite.testClasses.TestDataProvider@5649fd9b]" name="testCase" duration-ms="20691" started-at="2020-05-28T03:40:34Z" data-provider="getLoginData" finished-at="2020-05-28T03:40:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{UserName=mngr262271, Password=ydavuza}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method status="PASS" signature="testCase(java.util.Map)[pri:0, instance:com.bank.demosite.testClasses.TestDataProvider@5649fd9b]" name="testCase" duration-ms="15307" started-at="2020-05-28T03:40:55Z" data-provider="getLoginData" finished-at="2020-05-28T03:41:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{UserName=mngr262270, Password=ydavuza}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method status="PASS" signature="testCase(java.util.Map)[pri:0, instance:com.bank.demosite.testClasses.TestDataProvider@5649fd9b]" name="testCase" duration-ms="15005" started-at="2020-05-28T03:41:10Z" data-provider="getLoginData" finished-at="2020-05-28T03:41:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{UserName=mngr262271, Password=abcdefg}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method status="PASS" signature="testCase(java.util.Map)[pri:0, instance:com.bank.demosite.testClasses.TestDataProvider@5649fd9b]" name="testCase" duration-ms="18597" started-at="2020-05-28T03:41:25Z" data-provider="getLoginData" finished-at="2020-05-28T03:41:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{UserName=mngr26134, Password=xyzabc}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bank.demosite.testClasses.TestDataProvider@5649fd9b]" name="tearDown" is-config="true" duration-ms="1726" started-at="2020-05-28T03:41:44Z" finished-at="2020-05-28T03:41:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bank.demosite.testClasses.TestDataProvider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
